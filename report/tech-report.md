@@ -28,9 +28,18 @@ No threshold separated the classes, for two reasons. First, the sources score on
 
 Design. 100 Russian questions regenerated from production topic categories (80 in-domain across 11 topics, 20 out-of-domain), translated to Kyrgyz and checked by native speakers; for each question the production pipeline is run once and the evidence passages and answer are frozen (`scripts/collect_evidence.py`). Two annotators label each item `supported` / `partial` / `unsupported` after a 20-item calibration round (`report/annotation-guide.md`). An LLM judge (`judge.py`, one prompt, JSON-schema output) labels the same items three times. We report Cohen's κ with bootstrap 95 % CI for human–human and human–judge pairs, per language.
 
-Results. _Pending: table from `python kappa.py data/pilot_ru_ky.jsonl`._
+Status (2026-10-08). The 100 Russian questions have been run through the production pipeline (`data/pilot_ru.jsonl`, personal data in evidence replaced by tokens). Kyrgyz drafts exist for all 100 (`data/pilot_questions_ky_draft.jsonl`) and await native-speaker review. Human labels: not started.
 
-Observations from the first rows: on the question about the contract (fee-paying) threshold the generator answered "110", the figure for grant places, while the evidence states 60 for contract places; the retrieval-score flag marked the answer grounded. This is the failure class the study targets.
+First measurement, before any labelling. The production flag that replaced the degenerate one still does not measure grounding:
+
+| questions | n | `matched` (θ = 0) | `grounded` flag (θ = 2.0) |
+|---|---|---|---|
+| in-domain | 80 | 80 | 78 |
+| out-of-domain (weather, recipes, other universities, code) | 20 | 20 | **17** |
+
+Seventeen of twenty questions the corpus cannot answer are marked grounded by retrieval score, while the generator itself declined all twenty correctly ("this is outside my knowledge base"). The flag and the answer disagree in opposite directions: it says the refusal is grounded, and on the fee-paying threshold question it said an answer of "110" (the grant figure; the evidence says 60 for contract places) was grounded as well. Every row carries the retrieval score and both flags, so the κ study can report how often a score-based label and an evidence-based label diverge.
+
+Results. _Pending: table from `python kappa.py data/pilot_ru_ky.jsonl`._
 
 ## 4. Planned study (6 months)
 

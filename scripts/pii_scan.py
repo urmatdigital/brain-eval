@@ -29,6 +29,11 @@ PATTERNS = {
 }
 
 EXT = {".tsv", ".jsonl", ".json", ".md", ".txt", ".csv"}
+# Role mailboxes of the university are institutional contacts, not a person's data.
+ROLE_MAILBOX = re.compile(
+    r"^(admission|international|online|rector|rektorat|info|priem|dekanat\.[a-z]+)@kstu\.kg$",
+    re.I,
+)
 
 
 def scan(root: Path) -> list[str]:
@@ -44,6 +49,8 @@ def scan(root: Path) -> list[str]:
         ):
             for kind, rx in PATTERNS.items():
                 for m in rx.finditer(line):
+                    if kind == "email" and ROLE_MAILBOX.match(m.group(0)):
+                        continue
                     findings.append(f"{p}:{ln}: {kind}: {m.group(0)}")
     return findings
 
