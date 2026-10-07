@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "brain-eval pilot item",
+  "description": "One row of data/pilot_ru_ky.jsonl. Questions are regenerated from production topics, never copied; no personal data.",
+  "type": "object",
+  "properties": {
+    "id": {"type": "string", "description": "stable id, e.g. ru-012 / ky-012; ru-NNN and ky-NNN with the same NNN are a parallel pair"},
+    "lang": {"type": "string", "enum": ["ru", "ky"]},
+    "topic": {"type": "string", "description": "admission | cost | documents | hostel | schedule | university | other | ood"},
+    "ood": {"type": "boolean", "description": "true for deliberately out-of-domain questions the corpus cannot answer"},
+    "question": {"type": "string"},
+    "evidence": {"type": "array", "items": {"type": "string"}, "description": "retrieved passages shown to the generator, in rank order"},
+    "answer": {"type": "string", "description": "the assistant's answer produced from exactly this evidence"},
+    "label_h1": {"type": ["string", "null"], "enum": ["supported", "partial", "unsupported", null]},
+    "label_h2": {"type": ["string", "null"], "enum": ["supported", "partial", "unsupported", null]},
+    "label_judge": {"type": ["string", "null"], "enum": ["supported", "partial", "unsupported", null]},
+    "config": {"type": "string", "description": "retriever/extractor/generator configuration tag, e.g. baseline"}
+  },
+  "required": ["id", "lang", "topic", "ood", "question", "evidence", "answer"],
+  "additionalProperties": true
+}

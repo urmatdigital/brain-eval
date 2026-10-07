@@ -1,0 +1,6 @@
+out/
+__pycache__/
+.ruff_cache/
+.venv/
+tests/fixtures/_pii_*.txt
+*.pdf

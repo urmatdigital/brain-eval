@@ -1,0 +1,11 @@
+{"id": 1, "lang": "ru", "label_h1": "supported", "label_h2": "supported"}
+{"id": 2, "lang": "ru", "label_h1": "supported", "label_h2": "supported"}
+{"id": 3, "lang": "ru", "label_h1": "supported", "label_h2": "supported"}
+{"id": 4, "lang": "ky", "label_h1": "supported", "label_h2": "supported"}
+{"id": 5, "lang": "ky", "label_h1": "supported", "label_h2": "supported"}
+{"id": 6, "lang": "ky", "label_h1": "supported", "label_h2": "unsupported"}
+{"id": 7, "lang": "ru", "label_h1": "unsupported", "label_h2": "unsupported"}
+{"id": 8, "lang": "ru", "label_h1": "unsupported", "label_h2": "unsupported"}
+{"id": 9, "lang": "ky", "label_h1": "unsupported", "label_h2": "unsupported"}
+{"id": 10, "lang": "ky", "label_h1": "unsupported", "label_h2": "supported"}
+{"id": 11, "lang": "ru", "label_h1": "partial", "label_h2": null}

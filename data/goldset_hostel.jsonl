@@ -1,0 +1,46 @@
+{"q": "Есть ли общежитие?", "lang": "ru", "topic": "entry", "expect_mode": "kgtu_base", "expect_substr": ["uportal"], "forbid_substr": ["19 000", "9 500", "не подают"]}
+{"q": "А у вас есть общежитие?", "lang": "ru", "topic": "entry", "expect_mode": "kgtu_base", "expect_substr": ["семь"], "forbid_substr": ["19 000", "9 500"]}
+{"q": "Есть ли общежитие для иногородних?", "lang": "ru", "topic": "entry", "expect_mode": "kgtu_base", "expect_substr": ["иногородн"], "forbid_substr": ["медстрахов", "086"]}
+{"q": "Расскажи про общежития КГТУ: условия и стоимость.", "lang": "ru", "topic": "entry", "expect_mode": "kgtu_base", "expect_substr": ["2250"], "forbid_substr": ["19 000", "9 500", "Wi-Fi", "прачечн"]}
+{"q": "Общежитие сколько стоит", "lang": "ru", "topic": "price", "expect_mode": "kgtu_base", "expect_substr": ["2250"], "forbid_substr": ["19 000", "9 500", "какое направление"]}
+{"q": "Сколько стоит проживание в общежитии", "lang": "ru", "topic": "price", "expect_mode": "kgtu_base", "expect_substr": ["2250"], "forbid_substr": ["19 000", "9 500"]}
+{"q": "За месяц сколько будем платить на обшежитие", "lang": "ru", "topic": "price", "expect_mode": "kgtu_base", "expect_substr": ["2250"], "forbid_substr": ["19 000", "9 500"]}
+{"q": "сколько стоит общежитие в год", "lang": "ru", "topic": "price", "expect_mode": "kgtu_base", "expect_substr": ["месяц"], "forbid_substr": ["19 000", "9 500"]}
+{"q": "Например расскажи про цена на каждое общежитие 2026г", "lang": "ru", "topic": "price", "expect_mode": "kgtu_base", "expect_substr": ["2250"], "forbid_substr": ["19 000", "9 500"]}
+{"q": "Стоимость общежитий кгту", "lang": "ru", "topic": "price", "expect_mode": "kgtu_base", "expect_substr": ["2250"], "forbid_substr": ["19 000", "9 500"]}
+{"q": "В общежитии комнаты на 1 человека доступны для контрактных студентов?", "lang": "ru", "topic": "rules", "expect_mode": "kgtu_base", "expect_substr": ["4"], "forbid_substr": ["19 000"]}
+{"q": "А сколько человек живут в одной комнате в общежитии?", "lang": "ru", "topic": "rules", "expect_mode": "kgtu_base", "expect_substr": ["4"], "forbid_substr": ["19 000"]}
+{"q": "Какие условия в общежитии они не отпускают после 22:00 или нет", "lang": "ru", "topic": "rules", "expect_mode": "kgtu_base", "expect_substr": ["режим"], "forbid_substr": ["22:00", "Wi-Fi", "прачечн"]}
+{"q": "Для жилья в общежитии что необходимо из вещей", "lang": "ru", "topic": "rules", "expect_mode": "kgtu_base", "expect_substr": ["uportal"], "forbid_substr": ["Wi-Fi", "прачечн", "холодильник"]}
+{"q": "как заселиться в общежитие", "lang": "ru", "topic": "apply", "expect_mode": "kgtu_base", "expect_substr": ["uportal"], "forbid_substr": ["2020.edu.gov.kg", "не подают", "при поступлении"]}
+{"q": "Как подать заявку на общежитие", "lang": "ru", "topic": "apply", "expect_mode": "kgtu_base", "expect_substr": ["uportal"], "forbid_substr": ["2020.edu.gov.kg", "не подают"]}
+{"q": "Как онлайн написать заявление в общежитии", "lang": "ru", "topic": "apply", "expect_mode": "kgtu_base", "expect_substr": ["uportal"], "forbid_substr": ["2020.edu.gov.kg", "не подают", "нет такой формы", "электронной формы нет"]}
+{"q": "Можно ли заселиться в общежитие через https://uportal.kstu.kg", "lang": "ru", "topic": "apply", "expect_mode": "kgtu_base", "expect_substr": ["uportal"], "forbid_substr": ["2020.edu.gov.kg", "не подают"]}
+{"q": "Как создать аккаунт в системе общежития?", "lang": "ru", "topic": "apply", "expect_mode": "kgtu_base", "expect_substr": ["uportal"], "forbid_substr": ["2020.edu.gov.kg", "не подают"]}
+{"q": "Если я уже поступил, я могу позже оформить заявку на общежитие?", "lang": "ru", "topic": "apply", "expect_mode": "kgtu_base", "expect_substr": ["uportal"], "forbid_substr": ["2020.edu.gov.kg", "не подают"]}
+{"q": "какие документы нужны для общежития и контакты общежития?", "lang": "ru", "topic": "docs", "expect_mode": "kgtu_base", "expect_substr": ["флюорограф"], "forbid_substr": ["медстрахов", "086", "визов"]}
+{"q": "В целом какие документы нужны для общежития, может какие то медицинские справки и тд?", "lang": "ru", "topic": "docs", "expect_mode": "kgtu_base", "expect_substr": ["флюорограф"], "forbid_substr": ["медстрахов", "086", "визов"]}
+{"q": "А че за справка с учебы для общежития", "lang": "ru", "topic": "docs", "expect_mode": "kgtu_base", "expect_substr": ["справка с места"], "forbid_substr": ["медстрахов", "086"]}
+{"q": "Что нужно для общежития", "lang": "ru", "topic": "docs", "expect_mode": "kgtu_base", "expect_substr": ["заявлени"], "forbid_substr": ["медстрахов", "086", "визов"]}
+{"q": "Когда начнётся приём в обшежитие КГТУ", "lang": "ru", "topic": "dates", "expect_mode": "kgtu_base", "expect_substr": ["приёмн"], "forbid_substr": ["сентябр", "август"]}
+{"q": "Когда начнется заселение в общежитие ?", "lang": "ru", "topic": "dates", "expect_mode": "kgtu_base", "expect_substr": ["приёмн"], "forbid_substr": ["сентябр", "август"]}
+{"q": "Приказ на общежитие когда готова будет", "lang": "ru", "topic": "dates", "expect_mode": "kgtu_base", "expect_substr": ["приёмн"], "forbid_substr": ["сентябр", "август"]}
+{"q": "Могут ли иногороднему отказать в общежитии", "lang": "ru", "topic": "eligibility", "expect_mode": "kgtu_base", "expect_substr": ["1300"], "forbid_substr": ["19 000"]}
+{"q": "А что насчёт общежития, кто может туда податься и есть ли вообще шанс если прописка в Чуйской области", "lang": "ru", "topic": "eligibility", "expect_mode": "kgtu_base", "expect_substr": ["иногородн"], "forbid_substr": ["19 000"]}
+{"q": "Номер кому обратиться по поводу заселение в общежитие будучи на 3 курсе", "lang": "ru", "topic": "contact", "expect_mode": "kgtu_base", "expect_substr": ["<HOSTEL_PHONE>"], "forbid_substr": ["комендант", "whatsapp"]}
+{"q": "В какой номер позвонить по вопросам заселения общежития", "lang": "ru", "topic": "contact", "expect_mode": "kgtu_base", "expect_substr": ["<HOSTEL_PHONE>"], "forbid_substr": ["комендант"]}
+{"q": "общежитие №2", "lang": "ru", "topic": "address", "expect_mode": "kgtu_base", "expect_substr": ["Айтматова, 66"], "forbid_substr": ["Маздыбаева"]}
+{"q": "Расскажи в какое общежитие попадают студенты 1курса", "lang": "ru", "topic": "address", "expect_mode": "kgtu_base", "expect_substr": ["заселен"], "forbid_substr": ["общежитие №1", "общежитие №2", "общежитие №5", "общежитие №7"]}
+{"q": "В кара балтинском филилае есть общежитие", "lang": "ru", "topic": "address", "expect_mode": "kgtu_base", "expect_substr": ["приёмн"], "forbid_substr": ["есть общежитие в Кара-Балте", "общежитие в Кара-Балте есть"]}
+{"q": "Жатакана барбы?", "lang": "ky", "topic": "entry", "expect_mode": "kgtu_base", "expect_substr": ["uportal"], "forbid_substr": ["19 000", "9 500"]}
+{"q": "жатакана канча турат?", "lang": "ky", "topic": "price", "expect_mode": "kgtu_base", "expect_substr": ["2250"], "forbid_substr": ["19 000", "9 500"]}
+{"q": "Жатаканага кантип чыксак болот Политехтин", "lang": "ky", "topic": "apply", "expect_mode": "kgtu_base", "expect_substr": ["uportal"], "forbid_substr": ["2020.edu.gov.kg", "не подают"]}
+{"q": "Жатаканаг тапшырууга кандай документтер керек?", "lang": "ky", "topic": "docs", "expect_mode": "kgtu_base", "expect_substr": ["флюорограф"], "forbid_substr": ["медстрахов", "086"]}
+{"q": "Жатаканага документтер качан тапшырылат?", "lang": "ky", "topic": "dates", "expect_mode": "kgtu_base", "expect_substr": ["<HOSTEL_PHONE>"], "forbid_substr": ["сентябр"]}
+{"q": "жатаканасы кайсыл жерде жайгашкан", "lang": "ky", "topic": "address", "expect_mode": "kgtu_base", "expect_substr": ["Айтматова"], "forbid_substr": ["Маздыбаева"]}
+{"q": "Кайсыл жатакана эл аралык студенттер учун иштейт", "lang": "ky", "topic": "eligibility", "expect_mode": "kgtu_base", "expect_substr": ["Айтматова, 64"], "forbid_substr": ["Маздыбаева"]}
+{"q": "Is there a dormitory?", "lang": "en", "topic": "entry", "expect_mode": "kgtu_base", "expect_substr": ["uportal"], "forbid_substr": ["19 000", "9 500"]}
+{"q": "Сколько стоит общежитие для иностранных студентов", "lang": "ru", "topic": "foreign", "expect_mode": "kgtu_base", "expect_substr": ["иностран"], "forbid_substr": ["2250 сом для иностранных"]}
+{"q": "Какие документы нужны иностранному студенту для заселения в общежитие", "lang": "ru", "topic": "foreign", "expect_mode": "kgtu_base", "expect_substr": ["визов"], "forbid_substr": ["флюорограф"]}
+{"q": "Какие условия в общежитии для иностранных студентов", "lang": "ru", "topic": "foreign", "expect_mode": "kgtu_base", "expect_substr": ["64"], "forbid_substr": ["не знаю"]}
+{"q": "Я из Оша, сколько будет стоить общежитие", "lang": "ru", "topic": "price", "expect_mode": "kgtu_base", "expect_substr": ["2250"], "forbid_substr": ["19 000", "9 500", "медстрахов", "визов"]}

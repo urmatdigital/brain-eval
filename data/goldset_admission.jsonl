@@ -1,0 +1,24 @@
+{"q": "Какой проходной балл ОРТ нужен для поступления на грант в КГТУ?", "lang": "ru", "expect_mode": "kgtu_base", "expect_substr": ["110"]}
+{"q": "Какой минимальный балл ОРТ для поступления на платное место (контракт) в КГТУ?", "lang": "ru", "expect_mode": "kgtu_base", "expect_substr": ["60"]}
+{"q": "Сколько институтов входит в состав КГТУ?", "lang": "ru", "expect_mode": "kgtu_base", "expect_substr": ["9"]}
+{"q": "Какова минимальная стоимость обучения в КГТУ (для граждан КР)?", "lang": "ru", "expect_mode": "kgtu_base", "expect_substr": ["81000"]}
+{"q": "На каком сайте (АИС) подаётся заявление на поступление в КГТУ?", "lang": "ru", "expect_mode": "kgtu_base", "expect_substr": ["2020.edu.gov.kg"]}
+{"q": "Какой внутренний экзамен сдают абитуриенты на направления дизайна в КГТУ?", "lang": "ru", "expect_mode": "kgtu_base", "expect_substr": ["Дизайн"]}
+{"q": "КГТУга грантка тапшыруу үчүн ОРТтан канча балл алуу керек?", "lang": "ky", "expect_mode": "kgtu_base", "expect_substr": ["110"]}
+{"q": "КГТУга төлөм (контракт) менен тапшыруунун минималдуу ОРТ баллы канча?", "lang": "ky", "expect_mode": "kgtu_base", "expect_substr": ["60"]}
+{"q": "КГТУнун курамында канча институт бар?", "lang": "ky", "expect_mode": "kgtu_base", "expect_substr": ["9"]}
+{"q": "КР жарандары үчүн КГТУдагы окуунун минималдуу баасы канча?", "lang": "ky", "expect_mode": "kgtu_base", "expect_substr": ["81000"]}
+{"q": "Тапшыруу арызы (АИС) кайсы сайтта берилет?", "lang": "ky", "expect_mode": "kgtu_base", "expect_substr": ["2020.edu.gov.kg"]}
+{"q": "Дизайн багытындагы абитуриенттер КГТУда кандай ички экзамен тапшырат?", "lang": "ky", "expect_mode": "kgtu_base", "expect_substr": ["Дизайн"]}
+{"q": "What ORT score is required for grant-funded admission to KSTU?", "lang": "en", "expect_mode": "kgtu_base", "expect_substr": ["110"]}
+{"q": "What is the minimum ORT score for paid (contract) admission to KSTU?", "lang": "en", "expect_mode": "kgtu_base", "expect_substr": ["60"]}
+{"q": "How many institutes are part of KSTU?", "lang": "en", "expect_mode": "kgtu_base", "expect_substr": ["9"]}
+{"q": "What is the minimum tuition fee at KSTU for Kyrgyzstan citizens?", "lang": "en", "expect_mode": "kgtu_base", "expect_substr": ["81000"]}
+{"q": "On which website (AIS) is the KSTU admission application submitted?", "lang": "en", "expect_mode": "kgtu_base", "expect_substr": ["2020.edu.gov.kg"]}
+{"q": "What internal exam do applicants for design programs take at KSTU?", "lang": "en", "expect_mode": "kgtu_base", "expect_substr": ["design"]}
+{"q": "公费录取进入KSTU需要多少ORT分数？", "lang": "zh", "expect_mode": "kgtu_base", "expect_substr": ["110"]}
+{"q": "自费（合同制）录取进入KSTU的最低ORT分数是多少？", "lang": "zh", "expect_mode": "kgtu_base", "expect_substr": ["60"]}
+{"q": "KSTU下设多少个学院（研究所）？", "lang": "zh", "expect_mode": "kgtu_base", "expect_substr": ["9"]}
+{"q": "吉尔吉斯斯坦公民在KSTU的最低学费是多少？", "lang": "zh", "expect_mode": "kgtu_base", "expect_substr": ["81000"]}
+{"q": "KSTU录取申请在哪个网站（AIS）提交？", "lang": "zh", "expect_mode": "kgtu_base", "expect_substr": ["2020.edu.gov.kg"]}
+{"q": "KSTU设计类专业的考生需要参加什么内部考试？", "lang": "zh", "expect_mode": "kgtu_base", "expect_substr": ["设计"]}
